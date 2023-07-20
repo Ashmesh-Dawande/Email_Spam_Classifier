@@ -1,5 +1,6 @@
 import streamlit as st
 import string
+import pickle
 st.title("Email Spam Predictor")
 import nltk
 from nltk.corpus import stopwords
