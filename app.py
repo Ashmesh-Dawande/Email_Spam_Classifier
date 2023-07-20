@@ -1,6 +1,4 @@
 import streamlit as st
-from sklearn import *
-import pickle
 import string
 st.title("Email Spam Predictor")
 import nltk
