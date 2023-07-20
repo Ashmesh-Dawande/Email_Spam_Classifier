@@ -3,6 +3,7 @@ import string
 import pickle
 st.title("Email Spam Predictor")
 import nltk
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
